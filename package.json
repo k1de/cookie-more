@@ -1,0 +1,36 @@
+{
+    "name": "cookie-more",
+    "version": "1.0.0",
+    "description": "Utility that extends the standard `cookie` module with additional conversion capabilities",
+    "keywords": [
+        "cookie",
+        "puppeteer",
+        "converter",
+        "parser"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/k1de/cookie-more.git"
+    },
+    "homepage": "https://github.com/k1de/cookie-more#readme",
+    "bugs": {
+        "url": "https://github.com/k1de/cookie-more/issues"
+    },
+    "license": "ISC",
+    "author": "tish",
+    "type": "module",
+    "main": "dist/cookie.js",
+    "types": "dist/cookie.d.ts",
+    "files": [
+        "dist/"
+    ],
+    "scripts": {
+        "test": "npx tsc --build && node test/test.js"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "cookie": "1.x"
+    }
+}
